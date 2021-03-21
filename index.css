@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    width: 800px;
+    margin: 0 auto;
+}
+#wrapper div{
+    width: 300px;
+    height: 200px;
+    border: 1px solid #333;
+    margin: 25px;
+}
+#wrapper div.gradiente1{
+    background-image: linear-gradient(top,#FFF 0%, #F00 50% ,#00F 100%);
+    background-image: -moz-linear-gradient(top,#FFF 0%, #F00 50% ,#00F 100%);
+    background-image: -webkit-linear-gradient(top,#FFF 0%, #F00 50% ,#00F 100%);
+    background-image: -ms-linear-gradient(top,#FFF 0%, #F00 50% ,#00F 100%);
+}
+#wrapper div.gradinete2{
+    background-image: linear-gradient(top left, #FFF 0%, #df15aa 50%, #AACCFF 100%);
+    background-image: -moz-linear-gradient(top left, #FFF 0%, #df15aa 50%, #AACCFF 100%);
+    background-image: -webkit-linear-gradient(top left, #FFF 0%, #df15aa 50%, #AACCFF 100%);
+    background-image: -ms-linear-gradient(top left, #FFF 0%, #df15aa 50%, #AACCFF 100%);
+}
+#wrapper div.gradiente3{
+    background-image: linear-gradient();
+}
